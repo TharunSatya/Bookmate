@@ -2,8 +2,9 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Rating } from "../../../components/Elements/Rating";
 import { useTitle } from "../../../hooks";
-import { useCart } from "../../../context";
 import { getProduct } from "../../../services";
+import { useCart } from "../../../context";
+
 export const ProductDetails = () => {
   const [errorMsg, setErrorMsg] = useState("");
   const [inCart, setInCart] = useState();
