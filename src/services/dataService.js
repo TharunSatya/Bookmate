@@ -9,7 +9,7 @@ export const getUser = async () => {
     },
   };
   const response = await fetch(
-    `http://localhost:8000/600/users/${userId}`,
+    `${process.env.REACT_APP_HOST}/600/users/${userId}`,
     options
   );
   if (!response.ok) {
