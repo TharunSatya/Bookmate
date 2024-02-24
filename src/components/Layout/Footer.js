@@ -13,7 +13,7 @@ export const Footer = () => {
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <Link
-            to="/"
+            to="https://www.instagram.com/tharun__satya__"
             target="_blank"
             rel="noreferrer"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
@@ -33,7 +33,7 @@ export const Footer = () => {
             <span className="sr-only">Instagram page</span>
           </Link>
           <Link
-            to="/"
+            to="https://twitter.com/TharunSatya"
             target="_blank"
             rel="noreferrer"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
@@ -49,7 +49,7 @@ export const Footer = () => {
             <span className="sr-only">Twitter page</span>
           </Link>
           <Link
-            to="/"
+            to="https://github.com"
             target="_blank"
             rel="noreferrer"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
