@@ -270,6 +270,12 @@
       "password": "$2a$10$8pIY0PyzcymiHc.EZUp8Zexwm4scd9QcrbEdEMtD2LXzuKK1R9T6O",
       "name": "Tharun Satya",
       "id": 1
+    },
+    {
+      "email": "testing123@gmail.com",
+      "password": "$2a$10$tjhdDP/bxw7YZEaXk.cOXO4gfB2uQ/mFmcblK1JuV6nvXzkijJ2OC",
+      "name": "testing123",
+      "id": 2
     }
   ]
 }
